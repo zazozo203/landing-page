@@ -12,6 +12,9 @@ body {
     font-family: "DM Sans", sans-serif;
     
 }
+html{
+    font-size:55%;
+}
 
 .content {
     /* max-width: 1100px; */
@@ -19,24 +22,16 @@ body {
     /* max-width: 1150px; */
     /* max-width: 1241px; */
     margin: auto;
-    overflow: hidden;
-   
-
-}
-
-html{
-    font-size:55%;
+    
 }
 
 .nav {
     
-   background: url("images/background.png");
+   background: url("images/landing/background.png");
    background-repeat: no-repeat;
-   background-size: cover;
+     background-size: cover;
    height: 80.4rem;
-   width: 100%;
-   margin-left: -1rem;
-   overflow: hidden;
+   
 }
 
 /* Navbar styling */
@@ -156,8 +151,9 @@ html{
 .hero-section {
     text-align: left;
     
-    max-width: 95.7rem;
-    margin-top: 12.5rem;
+    width: 100%;
+    
+    margin-top: 8.5rem;
 }
 
 .hero-section h1 {
@@ -230,10 +226,9 @@ html{
     padding: 1.5rem;
     background-color: #ffffff;
     border-radius: 8px;
-    
     margin-top: 12.9rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 124rem;
+    
     height: 16.5rem;
 }
 
@@ -282,7 +277,7 @@ html{
     padding-left: 1rem;
     font-size: 1.6rem;
     font-weight: 500;
-    margin-left: 95rem;
+    margin-left: 109rem;
     margin-top: 3rem;
     color: #ffffff;
     background-color: #1f561e;
@@ -317,27 +312,22 @@ html{
     }
 }
 
-.body_co{
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-}
 .container{
     
     width: 124rem;
     height: 87.1rem;
-    margin-left: 10rem;
-    padding-top: 10rem;
+    
+    padding-top: 20rem;
     display: flex;
     align-items: center;
     justify-items: center;
-    gap: 2rem;
+    
     background-color: white;
 }
 .side_flex{
     width: 36%rem;
     height: 87.1rem;
-    gap: 2rem;
+    margin-right: 2rem;
     
 }
 .side_flex h1{
@@ -359,7 +349,7 @@ html{
 .offer {
     gap: 5rem;
     align-items: center;
-    padding: 1.6rem;
+   
     padding-bottom: 2rem;
     border-radius: 8px;
     background-color: #fff;
@@ -387,6 +377,7 @@ html{
 .sideimg img{
     width: 61rem;
     height: 87.1rem;
+    border-radius: 1rem;
 }
 
 
@@ -660,10 +651,7 @@ html{
     background-color: #f8fafb;
     color: #333;
     line-height: 1.5;
-    width: 124rem;
     height: 59.9rem;
-    
-    margin-left: 10rem;
     gap: 10rem;
     
 }
@@ -696,15 +684,16 @@ html{
     display: flex;
     
     justify-content: center;
-    gap: 1.2rem;
+    gap: 2.3rem;
 }
 
 .step {
     width: 40rem;
     background-color: #fff;
     border-radius: 10px;
-    height: 46.1rem;
-    
+    height: 59.9rem;
+    height: 49.1rem;
+
     text-align: center;
     transition: transform 0.3s ease;
     gap: 1rem;
@@ -717,7 +706,7 @@ html{
 .step img {
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 .step h3 {
@@ -740,15 +729,15 @@ html{
     }
 
     .step {
-        width: 90%;
+        width: 100%;
     }
 }
 
 .ready{
-     background: url("images/Frame\ 1000003463.png");
+     background: url("images/landing/Frame\ 1000003463.png");
      background-repeat: no-repeat;
      background-size: 124rem,40.8rem;
-     margin-left: 10rem;
+    
      margin-top: 14rem;
      position: static;
      display: flex;
@@ -839,7 +828,7 @@ html{
 .body4{
     margin-top: 10rem;
     width: 124rem;
-    margin-left: 10rem;
+    
   
 }
 
@@ -961,7 +950,7 @@ html{
     margin: 0px;
     background-color: white;
     gap: 100px;
-    margin-left: 10rem;
+   
     margin-top: 10rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);      
       }
@@ -1028,7 +1017,7 @@ html{
     background-color: #6D9327;
     border: 0.1rem solid #6D9327;
     margin-top: 10rem;
-    margin-left: 11.8rem;
+    margin-left: 1.8rem;
     overflow: hidden;
     position: relative;
     
@@ -1127,7 +1116,7 @@ html{
     gap: 16rem;
     width: 121.5rem;
     margin-top: 10rem;
-    margin-left: 11.3rem;
+    margin-left: 1.3rem;
   }
   
  
@@ -1159,7 +1148,7 @@ html{
   }
   
   .footer-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 3.5rem;
   }
   
   .footer-section ul li a {
@@ -1168,6 +1157,9 @@ html{
     transition: color 0.3s;
     font-size: 1.6rem;
   }
+.footer-section p{
+    margin-bottom: 3.5rem;
+}
   #foot {
     color: #FCFFFC ;
     font-size: 1.6rem;

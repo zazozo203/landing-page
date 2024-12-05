@@ -1066,7 +1066,8 @@ html{
     height: 6.8rem;
     width: 43.5rem;
     position: relative;
-    border-radius: 1rem solid #fff;
+    border-radius: 8.608rem ;
+    border: 2rem solid white;
     outline:none ;
     margin-right: 8rem;
     text-align: left;
@@ -1075,8 +1076,10 @@ html{
   
   .newsletter-form button {
     position: absolute;
-    padding: 10px 20px;
-    
+    padding: 10px 10px;
+    font-family: Livvic;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: #0f490f;
     color: #fff;
@@ -1085,8 +1088,9 @@ html{
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s;
-    height: 6.5rem;
+    height: 5.5rem;
     margin-left: 28rem;
+    width: 5.5rem;
   }
     
   
@@ -1181,12 +1185,13 @@ html{
     background-color: white;
     width:50px;  
     height:50px;          
-    color: #1C5F1E;
+    color: #0f100f;
     padding: 0.6rem;
     border-radius: 70%;
     text-decoration: none;
     font-size: 0.1rem;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
  .social-icons i{
